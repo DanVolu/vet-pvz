@@ -1,5 +1,5 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/landing";
+import { Welcome } from "../components/section/landing";
 import Navbar from "~/components/navbar";
 
 export function meta({}: Route.MetaArgs) {
