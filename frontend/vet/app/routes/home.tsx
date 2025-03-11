@@ -1,5 +1,5 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../components/section/landing";
+import { Landing } from "../components/section/landing";
 import Navbar from "~/components/navbar";
 
 export function meta({}: Route.MetaArgs) {
@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
     <Navbar/>
-      <Welcome />
+      <Landing />
     </>
   );
 }
