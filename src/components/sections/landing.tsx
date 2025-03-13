@@ -31,8 +31,8 @@ export function Landing() {
                 className="font-medium flex items-center gap-2"
               >
                 Rodyti žemėlapyje
-                <img src="/map.png" alt="Žemėlapio ikona" className="h-5 w-5" />
-              </a>
+                <img src={`${import.meta.env.BASE_URL}map.png`} alt="Žemėlapio ikona" className="h-5 w-5" />
+                </a>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@ export function Landing() {
           <div className="flex-1 rounded-lg overflow-hidden shadow-lg transform transition-transform duration-500 hover:scale-105">
             <div
               className="relative h-[300px] md:h-[300px] bg-cover bg-center"
-              style={{ backgroundImage: "url('/goat.jpg')" }}
+              style={{ backgroundImage: `url(${import.meta.env.BASE_URL}goat.jpg)` }}
             >
               <div className="absolute inset-0 bg-black opacity-50"></div>
               <div className="relative z-10 p-6">
@@ -57,7 +57,7 @@ export function Landing() {
           <div className="flex-1 rounded-lg overflow-hidden shadow-lg transform transition-transform duration-500 hover:scale-105">
             <div
               className="relative h-[300px] md:h-[300px] bg-cover bg-center"
-              style={{ backgroundImage: "url('/doge.jpg')" }}
+              style={{ backgroundImage: `url(${import.meta.env.BASE_URL}doge.jpg)` }}
             >
               <div className="absolute inset-0 bg-black opacity-50"></div>
               <div className="relative z-10 p-6">
@@ -74,7 +74,7 @@ export function Landing() {
           <div className="flex-1 rounded-lg overflow-hidden shadow-lg transform transition-transform duration-500 hover:scale-105">
             <div
               className="relative h-[300px] md:h-[300px] bg-cover bg-center"
-              style={{ backgroundImage: "url('/vet.jpg')" }}
+              style={{ backgroundImage: `url(${import.meta.env.BASE_URL}vet.jpg)` }}
             >
               <div className="absolute inset-0 bg-black opacity-50"></div>
               <div className="relative z-10 p-6">
