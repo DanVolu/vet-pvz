@@ -1,19 +1,21 @@
 export function Landing() {
   return (
     <main className="flex flex-col items-center h-screen p-6 mt-">
-      <div className="flex flex-col xl:flex-row justify-between items-center xl:items-start w-full xl:w-auto h-full mt-10 xl:mt-32 mb-28 px-4 xl:px-0">
-        <div className="flex flex-col items-start xl:w-2/3">
-          <h2 className="text-6xl xl:text-8xl font-bold uppercase text-left xl:text-left mt-12">
+      <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start w-full lg:w-auto h-full mt-10 lg:mt-32 mb-28 px-4 lg:px-0">
+        <div className="flex flex-col items-start md:w-3/4 lg:w-2/3">
+          <h2 className="text-5xl md:text-6xl lg:text-8xl font-bold uppercase text-left lg:text-left mt-12">
             Rūpestis, kuris gydo
           </h2>
-          <p className="my-6 text-lg xl:text-2xl font-medium text-left xl:text-left">
+          <p className="my-6 text-lg lg:text-2xl font-medium text-left lg:text-left">
             Greita ir profesionali pagalba Jūsų augintiniui – bet kada, kai jos
             prireikia
           </p>
-          <div className="flex flex-col xl:flex-col xl:gap-4 mt-4 xl:mt-22 mb-12">
+          <div className="lg:flex flex-col lg:flex-col lg:gap-4 mt-4 lg:mt-22 ">
             <div className="flex-1 p-2">
               <h3 className="text-lg font-bold">+370 600 00000</h3>
-              <p className="font-medium ml-0.5">vet.paštas@gmail.com</p>
+            </div>
+            <div className="flex-1 p-2">
+              <h3 className="text-lg font-bold">vet.paštas@gmail.com</h3>
             </div>
             <div className="flex-1 p-2">
               <h3 className="text-lg font-bold">
@@ -35,7 +37,7 @@ export function Landing() {
           </div>
         </div>
 
-        <div className="w-full md:w-lg flex flex-col md:flex-col gap-6">
+        <div className="mt-12 lg:mt-0 w-full md:w-lg flex flex-col md:flex-col gap-6">
           <div className="flex-1 rounded-lg overflow-hidden shadow-lg transform transition-transform duration-500 hover:scale-105">
             <div
               className="relative h-[300px] md:h-[300px] bg-cover bg-center"
