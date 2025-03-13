@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="fixed top-0 w-full bg-light-white z-50 transition-transform duration-300">
+    <nav className="fixed top-0 w-full bg-light-white z-50 transition-transform duration-300 bg-white">
       <div className="container mx-auto px-8 py-4 flex items-center justify-between">
         <div className="flex-shrink-0">
           <img src="/cat.png" alt="Logo" className="h-12 w-12" />
