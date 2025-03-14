@@ -1,3 +1,4 @@
+
 export function Landing() {
   return (
     <main className="flex flex-col items-center h-screen p-6">
@@ -39,7 +40,7 @@ export function Landing() {
           ].map(({ img, title, text }) => (
             <div key={img} className="rounded-lg overflow-hidden shadow-lg transform transition-transform duration-500 hover:scale-105">
               <div
-                className="relative h-[250px] md:h-[250px] bg-cover bg-center"
+                className="relative h-[15.6rem] bg-cover bg-center"
                 style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${img})` }}
               >
                 <div className="absolute inset-0 bg-black opacity-50"></div>
